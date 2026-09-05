@@ -2,10 +2,10 @@
 <!-- CORE v3.9.2: Bootstrap-only (small). Delegate details to subagents/docs. -->
 <metadata>
   <title>EA_SCALPER_XAUUSD - Claude CORE</title>
-  <version>3.10.28</version>
-  <last_updated>2025-12-27</last_updated>
-  <changelog>v3.10.28: Add performance_first_protocol - mandatory performance mindset for all agents.</changelog>
-  <previous_changes>v3.10.27: Add mql5_build section. | v3.10.26: Add FORGE-MQL5 v1.0. | v3.10.25: Fix model_policy. | v3.10.24: Add git_safety rule.</previous_changes>
+  <version>3.10.29</version>
+  <last_updated>2025-09-05</last_updated>
+  <changelog>v3.10.29: Add Agent skills section (issue tracker, triage labels, domain docs).</changelog>
+  <previous_changes>v3.10.28: Add performance_first_protocol - mandatory performance mindset for all agents.</previous_changes>
 
   <!-- CRITICAL: Version Control for CLAUDE.md -->
   <version_control_rule priority="MANDATORY">
@@ -583,4 +583,19 @@
   <doc>DOCS/02_IMPLEMENTATION/ (plans/progress)</doc>
   <doc>.claude/commands/ (short, on-demand workflows)</doc>
 </references>
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked via GitHub Issues. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five canonical triage labels (defaults). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout. See `docs/agents/domain.md`.
+
 </coding_guidelines>
